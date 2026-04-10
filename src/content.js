@@ -134,6 +134,50 @@ export const translations = {
         ]
       }
     },
+    quiz: {
+      title: "PCOD Risk Check",
+      tagline: "Quick Self-Assessment",
+      subtitle: "Answer 5 simple questions to understand your PCOD risk level.",
+      questions: [
+        { q: "Are your periods irregular or delayed by more than 5 days?", options: ["Always", "Sometimes", "Rarely", "Never"] },
+        { q: "Do you experience sudden hair fall or thinning?", options: ["Yes, severely", "Mild", "Occasionally", "No"] },
+        { q: "Do you gain weight easily even with a normal diet?", options: ["Yes, very easily", "Somewhat", "Rarely", "No"] },
+        { q: "Do you have hormonal acne on chin or jawline?", options: ["Frequently", "Sometimes", "Rarely", "Never"] },
+        { q: "Do you often feel fatigued or have mood swings?", options: ["Always", "Often", "Sometimes", "Never"] }
+      ],
+      results: {
+        high: { label: "High Risk", color: "red", msg: "Your answers suggest a higher risk of PCOD. Please consult a gynecologist soon for proper diagnosis." },
+        medium: { label: "Moderate Risk", color: "orange", msg: "You show some signs. Focus on diet, yoga, and a balanced lifestyle. Consider a check-up." },
+        low: { label: "Low Risk", color: "green", msg: "Great news! Your risk appears low. Keep maintaining a healthy lifestyle and stay aware." }
+      },
+      btnStart: "Start Quiz",
+      btnNext: "Next →",
+      btnResult: "See My Result",
+      btnRetake: "Retake Quiz"
+    },
+    faq: {
+      title: "Common Questions",
+      tagline: "FAQ",
+      list: [
+        { q: "Can PCOD be completely cured?", a: "PCOD is highly manageable with the right diet, exercise, and lifestyle changes. Many women achieve complete hormonal balance naturally without medication." },
+        { q: "At what age does PCOD usually appear?", a: "PCOD most commonly appears between ages 15–30, often triggered during puberty, stress, or significant weight changes." },
+        { q: "Can I get pregnant with PCOD?", a: "Yes! With proper treatment and lifestyle changes, most women with PCOD can conceive naturally. Consult a fertility specialist if needed." },
+        { q: "Is PCOD genetic?", a: "There is a genetic component. If your mother or sister has PCOD, your risk is higher. However, lifestyle choices play an equally important role." },
+        { q: "Does losing weight help PCOD?", a: "Yes! Even a 5–10% reduction in body weight can significantly restore hormonal balance and improve symptoms dramatically." }
+      ]
+    },
+    tracker: {
+      title: "Period Tracker",
+      tagline: "Cycle Awareness",
+      subtitle: "Log your last period and calculate your next expected date.",
+      lastPeriod: "Last Period Start Date",
+      cycleLength: "Average Cycle Length (days)",
+      calculate: "Calculate Next Period",
+      nextPeriod: "Your Next Period is Expected on:",
+      ovulation: "Estimated Ovulation Day:",
+      fertileWindow: "Fertile Window:",
+      note: "Note: This is an estimate. Irregular cycles are a PCOD symptom — consult a doctor if cycles vary greatly."
+    },
     footer: {
       desc: "Designed with care to empower women towards a healthier lifestyle.",
       copyright: "© 2026 PCOD CARE | Designed by Revathi Balla"
@@ -274,6 +318,50 @@ export const translations = {
         ]
       }
     },
+    quiz: {
+      title: "PCOD రిస్క్ చెక్",
+      tagline: "స్వీయ పరీక్ష",
+      subtitle: "5 సాధారణ ప్రశ్నలకు సమాధానం ఇచ్చి మీ PCOD రిస్క్ తెలుసుకోండి.",
+      questions: [
+        { q: "మీ నెలసరి సరిగ్గా 5 రోజుల కంటే ఎక్కువ ఆలస్యమవుతుందా?", options: ["ఎప్పుడూ", "కొన్నిసార్లు", "అరుదు", "లేదు"] },
+        { q: "జుట్టు ఎక్కువగా రాలడం లేదా సన్నబడటం అనుభవిస్తున్నారా?", options: ["చాలా తీవ్రంగా", "స్వల్పంగా", "అప్పుడప్పుడు", "లేదు"] },
+        { q: "సాధారణ ఆహారంతోనే బరువు పెరుగుతున్నారా?", options: ["చాలా సులభంగా", "కొంచెం", "అరుదు", "లేదు"] },
+        { q: "గడ్డం లేదా దవడ వద్ద హార్మోన్ వల్ల మొటిమలు ఉన్నాయా?", options: ["తరచుగా", "కొన్నిసార్లు", "అరుదు", "లేదు"] },
+        { q: "తరచుగా అలసట లేదా మూడ్ స్వింగ్స్ అనుభవిస్తున్నారా?", options: ["ఎప్పుడూ", "తరచూ", "కొన్నిసార్లు", "లేదు"] }
+      ],
+      results: {
+        high: { label: "అధిక రిస్క్", color: "red", msg: "మీ సమాధానాలు PCOD రిస్క్ ఎక్కువగా ఉందని సూచిస్తున్నాయి. దయచేసి వెంటనే గైనకాలజిస్ట్‌ను సంప్రదించండి." },
+        medium: { label: "మధ్యస్థ రిస్క్", color: "orange", msg: "కొన్ని సంకేతాలు కనిపిస్తున్నాయి. ఆహారం, యోగా మీద దృష్టి పెట్టండి. వైద్య పరీక్ష చేయించుకోవడం మంచిది." },
+        low: { label: "తక్కువ రిస్క్", color: "green", msg: "శుభవార్త! మీ రిస్క్ తక్కువగా ఉంది. ఆరోగ్యకరమైన జీవనశైలిని కొనసాగించండి." }
+      },
+      btnStart: "క్విజ్ మొదలుపెట్టండి",
+      btnNext: "తదుపరి →",
+      btnResult: "నా ఫలితం చూడండి",
+      btnRetake: "మళ్ళీ రాయండి"
+    },
+    faq: {
+      title: "సాధారణ సందేహాలు",
+      tagline: "FAQ",
+      list: [
+        { q: "PCOD పూర్తిగా నయమవుతుందా?", a: "సరైన ఆహారం, వ్యాయామం మరియు జీవనశైలి మార్పులతో PCOD చాలా సులభంగా నయమవుతుంది. చాలా మంది మహిళలు మందులు లేకుండా హార్మోన్ల సమతుల్యత పొందుతారు." },
+        { q: "PCOD ఏ వయసులో వస్తుంది?", a: "PCOD సాధారణంగా 15–30 సంవత్సరాల వయసులో వస్తుంది. ఒత్తిడి, బరువు పెరగడం, లేదా యుక్తవయసులో ట్రిగ్గర్ అవుతుంది." },
+        { q: "PCOD తో గర్భం దాల్చవచ్చా?", a: "అవును! సరైన చికిత్స మరియు జీవనశైలి మార్పులతో చాలా మంది మహిళలు సహజంగా గర్భం దాల్చవచ్చు." },
+        { q: "PCOD వంశపారంపర్యంగా వస్తుందా?", a: "జన్యు కారణాలు ఉన్నాయి. మీ అమ్మ లేదా అక్కకు PCOD ఉంటే మీకు రిస్క్ ఎక్కువ. కానీ జీవనశైలి కూడా ముఖ్యమైన పాత్ర పోషిస్తుంది." },
+        { q: "బరువు తగ్గడం PCOD కి సహాయపడుతుందా?", a: "అవును! 5–10% బరువు తగ్గడం వల్ల హార్మోన్ల సమతుల్యత గణనీయంగా మెరుగవుతుంది." }
+      ]
+    },
+    tracker: {
+      title: "పీరియడ్ ట్రాకర్",
+      tagline: "సైకిల్ అవగాహన",
+      subtitle: "మీ చివరి నెలసరి తేదీ నమోదు చేసి తదుపరి తేదీ తెలుసుకోండి.",
+      lastPeriod: "చివరి నెలసరి ప్రారంభ తేదీ",
+      cycleLength: "సగటు సైకిల్ పొడవు (రోజులు)",
+      calculate: "తదుపరి నెలసరి లెక్కించండి",
+      nextPeriod: "మీ తదుపరి నెలసరి అంచనా తేదీ:",
+      ovulation: "అండోత్సర్గ రోజు (అంచనా):",
+      fertileWindow: "ఫర్టైల్ విండో:",
+      note: "గమనిక: ఇవి అంచనాలు మాత్రమే. సైకిల్ చాలా అనియమితంగా ఉంటే డాక్టర్‌ని సంప్రదించండి."
+    },
     footer: {
       desc: "మెరుగైన ఆరోగ్యం వైపు మహిళలను నడిపించేందుకు ఈ పేజీ రూపొందించబడింది.",
       copyright: "© 2026 PCOD CARE | Created by Revathi Balla"
@@ -413,6 +501,50 @@ export const translations = {
           { name: "Dr. Kamala Selvaraj", spec: "Infertility & PCOD Expert", rating: "⭐⭐⭐⭐⭐", img: "https://i.pravatar.cc/150?u=kamala" }
         ]
       }
+    },
+    quiz: {
+      title: "PCOD जोखिम जाँचें",
+      tagline: "स्वयं परीक्षण",
+      subtitle: "5 सरल प्रश्नों के उत्तर देकर अपना PCOD जोखिम स्तर जानें।",
+      questions: [
+        { q: "क्या आपके मासिक धर्म में 5 दिनों से अधिक की देरी होती है?", options: ["हमेशा", "कभी-कभी", "कभी-कभार", "नहीं"] },
+        { q: "क्या आप बालों का अत्यधिक झड़ना या पतलापन अनुभव करती हैं?", options: ["हाँ, बहुत", "हल्का", "कभी-कभी", "नहीं"] },
+        { q: "क्या आप सामान्य आहार से भी आसानी से वजन बढ़ा लेती हैं?", options: ["बहुत आसानी से", "थोड़ा", "कम", "नहीं"] },
+        { q: "क्या आपकी ठोड़ी या जबड़े पर हार्मोनल मुँहासे हैं?", options: ["अक्सर", "कभी-कभी", "कम", "नहीं"] },
+        { q: "क्या आप अक्सर थकान या मूड स्विंग्स महसूस करती हैं?", options: ["हमेशा", "अक्सर", "कभी-कभी", "नहीं"] }
+      ],
+      results: {
+        high: { label: "उच्च जोखिम", color: "red", msg: "आपके उत्तर PCOD के अधिक जोखिम का संकेत देते हैं। कृपया जल्द ही स्त्री रोग विशेषज्ञ से मिलें।" },
+        medium: { label: "मध्यम जोखिम", color: "orange", msg: "कुछ संकेत दिखाई दे रहे हैं। आहार और योग पर ध्यान दें। जाँच करवाना उचित रहेगा।" },
+        low: { label: "कम जोखिम", color: "green", msg: "बेहतरीन! आपका जोखिम कम लगता है। स्वस्थ जीवनशैली बनाए रखें।" }
+      },
+      btnStart: "क्विज़ शुरू करें",
+      btnNext: "अगला →",
+      btnResult: "परिणाम देखें",
+      btnRetake: "दोबारा लें"
+    },
+    faq: {
+      title: "सामान्य प्रश्न",
+      tagline: "FAQ",
+      list: [
+        { q: "क्या PCOD पूरी तरह ठीक हो सकती है?", a: "सही आहार, व्यायाम और जीवनशैली बदलावों से PCOD बहुत अच्छी तरह नियंत्रित हो सकती है। कई महिलाएं बिना दवा के हार्मोनल संतुलन पा लेती हैं।" },
+        { q: "PCOD किस उम्र में होती है?", a: "PCOD सबसे ज्यादा 15–30 वर्ष की आयु में दिखती है, अक्सर तनाव, वजन बढ़ने या यौवन के समय शुरू होती है।" },
+        { q: "क्या PCOD के साथ गर्भधारण हो सकता है?", a: "हाँ! उचित उपचार और जीवनशैली बदलावों से अधिकांश PCOD महिलाएं स्वाभाविक रूप से गर्भधारण कर सकती हैं।" },
+        { q: "क्या PCOD आनुवंशिक है?", a: "आनुवंशिक कारक होते हैं। यदि माँ या बहन को PCOD है तो जोखिम अधिक है। लेकिन जीवनशैली भी महत्वपूर्ण भूमिका निभाती है।" },
+        { q: "क्या वजन कम करने से PCOD में मदद मिलती है?", a: "हाँ! 5–10% वजन कम करने से हार्मोनल संतुलन में उल्लेखनीय सुधार हो सकता है।" }
+      ]
+    },
+    tracker: {
+      title: "पीरियड ट्रैकर",
+      tagline: "चक्र जागरूकता",
+      subtitle: "अपनी अंतिम माहवारी दर्ज करें और अगली अपेक्षित तारीख जानें।",
+      lastPeriod: "अंतिम माहवारी की शुरुआत तारीख",
+      cycleLength: "औसत चक्र की लंबाई (दिनों में)",
+      calculate: "अगली माहवारी गणना करें",
+      nextPeriod: "आपकी अगली माहवारी की संभावित तारीख:",
+      ovulation: "अनुमानित ओवुलेशन दिवस:",
+      fertileWindow: "उर्वर खिड़की:",
+      note: "नोट: ये केवल अनुमान हैं। यदि चक्र बहुत अनियमित हो तो डॉक्टर से मिलें।"
     },
     footer: {
       desc: "बेहतर स्वास्थ्य की दिशा में महिलाओं को सशक्त बनाने के लिए डिज़ाइन किया गया।",
